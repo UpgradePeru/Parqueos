@@ -5,4 +5,5 @@ El siguiente repositorio es un proyecto que permite encontrar estacionamientos.
 - Backend: ASP.NET Core 5 - Visual Studio
 - Frontend: Android studio
 
-* Taller de Proyectos 1 - Grupo 5
+
+Taller de Proyectos 1 - Grupo 5
