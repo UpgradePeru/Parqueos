@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20191126234428_AddIdentity.cs" />
+    <Compile Remove="Migrations\20191126234428_AddIdentity.Designer.cs" />
+    <Compile Remove="Migrations\20191127000934_AddIdentityTables.cs" />
+    <Compile Remove="Migrations\20191127000934_AddIdentityTables.Designer.cs" />
+    <Compile Remove="Migrations\20191127031253_InsertRoles.cs" />
+    <Compile Remove="Migrations\20191127031253_InsertRoles.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Model\Model.csproj" />
+  </ItemGroup>
+
+</Project>
